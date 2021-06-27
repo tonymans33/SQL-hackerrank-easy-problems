@@ -1,1 +1,0 @@
-SELECT DISTINCT CITY FROM STATION WHERE lower(Substr(CITY, -1)) in ('a','e','i','o','u');
